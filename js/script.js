@@ -76,4 +76,8 @@
     counter--;        // works the same as counter = counter - 1, but is shorter
     alert( counter ); // 1
 
+    // three operations in one line
+    for (a = 1, b = 3, c = a * b; a < 10; a++) {
+    ...
+    }
     
