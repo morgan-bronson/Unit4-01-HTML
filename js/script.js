@@ -72,12 +72,9 @@
     counter++;        // works the same as counter = counter + 1, but is shorter
     alert( counter ); // 3
 
-    let counter = 2;
-    counter--;        // works the same as counter = counter - 1, but is shorter
-    alert( counter ); // 1
-
     // three operations in one line
-    for (a = 1, b = 3, c = a * b; a < 10; a++) {
-    ...
-    }
-    
+    for (a = 1, b = 3, c = a * b; a < 10; a++)
+
+    alert( 2 > 1 );  // true (correct)
+    alert( 2 == 1 ); // false (wrong)
+    alert( 2 != 1 ); // true (correct)
